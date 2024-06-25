@@ -1,5 +1,5 @@
 import random
-n = random.randint(1, 50)
+n = random.randint(1, 500)
 a = -1
 guess = 0
 while(a !=n  ):
@@ -10,6 +10,6 @@ while(a !=n  ):
     else:
         print("Higher number please")
         
-print(f"Yes you got the number in {guess} attempt")
+print(f"Yes you got the correct gassed {n} number in {guess} attempt")
         
     
